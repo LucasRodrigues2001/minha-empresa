@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.cabecalho {
+    display: flex; /*Deixa os filhos um do lado do outro*/
+    justify-content: space-between;
+    background-color: rgb(110, 185, 160);
+    padding: 30px 60px;
+}
+
+.cabecalho ul {
+display: flex;
+gap: 20px;
+}
+
+.cabecalho a {
+    color: rgb(17, 19, 19);
+}
