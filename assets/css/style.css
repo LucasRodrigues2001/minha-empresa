@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     list-style: none;
 }
@@ -9,7 +10,8 @@
 .cabecalho {
     display: flex; /*Deixa os filhos um do lado do outro*/
     justify-content: space-between;
-    background-color: rgb(110, 185, 160);
+    align-items: center;
+    background-color: rgb(77, 140, 165);
     padding: 30px 60px;
 }
 
@@ -18,6 +20,21 @@ display: flex;
 gap: 20px;
 }
 
-.cabecalho a {
-    color: rgb(17, 19, 19);
+.cabecalho ul a { 
+
 }
+.cabecalho a {
+    color: rgb(227, 243, 243);
+}
+.main {
+padding: 30px 60px;
+} 
+.paidoslados { 
+    display: flex;
+}
+   
+
+
+
+
+
