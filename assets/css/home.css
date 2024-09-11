@@ -1,0 +1,52 @@
+.paidoslados { 
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.paidoslados div { 
+    width: 50%;
+}
+
+.paidoslados .ladodireito img { 
+    width: 100%;
+}
+
+.paidoslados .ladoesquerdo p {
+    text-align: justify;
+}
+
+.paidoslados .ladoesquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.paidoslados .ladoesquerdo button { 
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: rgb(77, 140, 165);
+    color: rgb(10, 10, 10);
+    box-shadow: black 3px 3px 0px;
+    cursor: pointer;
+
+}
+
+.paidoslados .ladoesquerdo button:hover {
+    background-color: rgb(226, 225, 225);
+}
+
+.paidoslados .ladoesquerdo h1, .Newsletter h2 {
+    text-transform: uppercase;
+}
+
+.Newsletter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Newsletter .Espaço {
+    gap: 5px;
+}
