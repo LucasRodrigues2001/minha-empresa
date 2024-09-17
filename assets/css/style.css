@@ -30,7 +30,28 @@ gap: 20px;
 padding: 30px 60px;
 } 
 
-   
+.btn  {
+    width: 200px;
+    border: 2px black solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    background-color: rgb(77, 140, 165);
+    color: rgb(10, 10, 10);
+    box-shadow: black 3px 3px 0px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(226, 225, 225);
+}
+
+.rodape {
+    background-color: rgb(77, 140, 165);
+    padding: 30px 60px;
+    color: black;
+    text-align: center;
+
+}
 
 
 

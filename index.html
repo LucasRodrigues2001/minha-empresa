@@ -15,22 +15,24 @@
 </head>
 
 <body>
-    <div class="cabecalho">
+    <header class="cabecalho">
 
         <h1>Logo</h1>
-        <ul>
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="Pages/historia.html">Historia</a>
-            </li>
-            <li>
-                <a href="Pages/contato.html">Contato</a>
-            </li>
-        </ul>
-    </div>
-    <div class="main">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="Pages/historia.html">Historia</a>
+                </li>
+                <li>
+                    <a href="Pages/contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
         <div class="paidoslados">
 
             <div class="ladoesquerdo">
@@ -43,7 +45,7 @@
                     obcaecati tempora excepturi facere dolores ipsum, blanditiis minus voluptates magni numquam, eos
                     beatae inventore quam quae, consequuntur consectetur id autem. Repudiandae harum natus eaque dolore
                     in! Odio, accusamus eius.</p>
-                <button>Conheça nossa historia</button>
+                <button class="btn">Conheça nossa historia</button>
             </div>
             <div class="ladodireito">
                 <img src="assets/img/minha empresa.jpg" alt="Reunião no trabalho">
@@ -63,11 +65,18 @@
                 <input type="text" id="Nome" placeholder="Digite seu nome completo" required>
                 <label for="Email">Email</label>
                 <input type="email" id="Email" placeholder="Digite seu Email" required>
-                <input type="submit" value="inscreva-se" required>
+                <input class="btn" type ="submit" value="inscreva-se" required>
             </form>
         </div>
+
+
+        
+
+    </main>
+    
+    <footer class="rodape">
         <p>Desenvolvido por <strong>Lucas Rodrigues </strong>&copy; Todos os direitos reservados</p>
-    </div>
+    </footer>
     
         
         
