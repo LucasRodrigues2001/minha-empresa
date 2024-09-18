@@ -26,12 +26,17 @@ gap: 20px;
 .cabecalho a {
     color: rgb(227, 243, 243);
 }
+
+.cabecalho .MENU {
+display: none;
+}
+
 .main {
 padding: 30px 60px;
 } 
 
 .btn  {
-    width: 200px;
+    width: 250px;
     border: 2px black solid;
     border-radius: 4px;
     padding: 10px 20px;
@@ -39,6 +44,7 @@ padding: 30px 60px;
     color: rgb(10, 10, 10);
     box-shadow: black 3px 3px 0px;
     cursor: pointer;
+    text-align: center;
 }
 
 .btn:hover {
@@ -53,6 +59,16 @@ padding: 30px 60px;
 
 }
 
+@media screen and (max-width: 500px) {
+    .cabecalho nav {
+        display: none;
+    }
+    
+    .cabecalho .MENU {
+        display: flex;
+    }
+    
+}
 
 
 

@@ -1,14 +1,14 @@
-.paidoslados { 
+.paidoslados {
     display: flex;
     gap: 20px;
     padding-bottom: 30px;
 }
 
-.paidoslados div { 
+.paidoslados div {
     width: 50%;
 }
 
-.paidoslados .ladodireito img { 
+.paidoslados .ladodireito img {
     width: 100%;
 }
 
@@ -27,7 +27,8 @@
     background-color: rgb(226, 225, 225);
 }
 
-.paidoslados .ladoesquerdo h1, .Newsletter h2 {
+.paidoslados .ladoesquerdo h1,
+.Newsletter h2 {
     text-transform: uppercase;
 }
 
@@ -40,4 +41,22 @@
 
 .Newsletter .Espaço {
     gap: 5px;
+}
+@media screen and (max-width: 780px) {
+    .Newsletter form {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+}
+
+@media screen and (max-width: 733px) {
+    .paidoslados {
+        flex-direction: column-reverse;
+
+    }
+
+    .paidoslados div {
+        width: 100%;
+    }
 }
