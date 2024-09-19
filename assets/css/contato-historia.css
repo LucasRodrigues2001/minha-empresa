@@ -1,0 +1,56 @@
+.paidoslados {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.paidoslados .ladodireito img {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.paidoslados div {
+    width: 50%;
+}
+
+.paidoslados .ladoesquerdo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main h3 {
+    text-align: center;
+    background-color: rgb(77, 140, 165);
+}
+
+.main details {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.Localização {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+@media screen and (max-width: 780px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+}
+
+@media screen and (max-width: 733px) {
+    .paidoslados {
+        flex-direction: column-reverse;
+
+    }
+
+    .paidoslados div {
+        width: 100%;
+    }
+}

@@ -7,6 +7,10 @@
     list-style: none;
 }
 
+body {
+    background-color: rgb(75, 62, 187);
+}
+
 .cabecalho {
     display: flex; /*Deixa os filhos um do lado do outro*/
     justify-content: space-between;
@@ -20,9 +24,11 @@ display: flex;
 gap: 20px;
 }
 
-.cabecalho ul a { 
+.cabecalho ul :hover  { 
 
+    background-color: black;
 }
+
 .cabecalho a {
     color: rgb(227, 243, 243);
 }
@@ -70,6 +76,9 @@ padding: 30px 60px;
     
 }
 
-
-
+@media screen and (max-width: 650px) {
+    .main {
+        padding: 10px;
+    }
+}
 
